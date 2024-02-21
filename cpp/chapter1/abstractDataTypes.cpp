@@ -55,10 +55,10 @@ int main(){
     emp1.age = 24;
     emp1.salary = 1200;
 
-    emp1.id = 202;
-    emp1.name = "leylo";
-    emp1.age = 26;
-    emp1.salary = 1400;
+    emp2.id = 202;
+    emp2.name = "leylo";
+    emp2.age = 26;
+    emp2.salary = 1400;
 
     cout<<"\n\nthis is an example of abstract data type using struct"<<endl;
     cout<<emp1.id<<" "<<emp1.name<<" "<<emp1.age<<" "<<emp1.salary<<endl;
