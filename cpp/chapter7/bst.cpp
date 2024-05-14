@@ -100,8 +100,11 @@ int main() {
   root = insert(root, 10);
   root = insert(root, 14);
   root = insert(root, 4);
+  root = insert(root, 2);
+  root = insert(root, 88);
+  root = insert(root, 89);
 
-  cout << "Inorder traversal: ";
+   cout << "Inorder traversal: ";
   inorder(root);
 
   cout << "\nAfter deleting 10\n";
